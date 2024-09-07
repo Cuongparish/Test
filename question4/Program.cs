@@ -6,12 +6,12 @@ class Program
     {
         for (int i = 1; i <= 10; i++)
         {
-            if (i % 2 == 0)
+            if (i % 6 == 0)
             {
-                if (i % 3 == 0)
-                {
-                    Console.WriteLine("ab");
-                }
+                Console.WriteLine("ab");
+            }
+            else if (i % 2 == 0)
+            {
                 Console.WriteLine('a');
             }
             else if (i % 3 == 0)
